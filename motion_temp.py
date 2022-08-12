@@ -11,6 +11,6 @@ while True:
 	pir.wait_for_motion()
 	temp = sensor.get_temperature()
 	print(temp)
-	time.sleep(2)
+	sleep(2)
 
 
